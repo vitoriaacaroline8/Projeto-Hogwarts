@@ -1,0 +1,116 @@
+body{
+    background:linear-gradient(to right, #740001, black);
+   
+}
+h1{
+    color: rgb(233, 235, 129);
+    font-family: "Metal Mania", system-ui;
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    color: rgb(233, 235, 129);
+    font-family: "Metal Mania", system-ui;
+     font-size: 35px;
+}
+p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    
+}
+.paragrafo{
+    color: rgb(233, 235, 129);
+    text-align: center;
+}
+a{
+    color: #FFD700;
+}
+a:visited{
+     color: #457b9d;
+}
+a:hover{
+    color: green;
+}
+a:active{
+     color: #FFD700; /*muda a cor do link quando voce clica e segura com a setinha em cima do link*/
+}
+
+
+ul li{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+th{
+      font-family: "Metal Mania", system-ui;
+      font-size: 20px;
+       color: rgb(233, 235, 129);
+}
+td{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+summary{
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 21px;
+       color: white;
+}
+.grifinoria:hover{
+    color: red;
+}
+.sonserina:hover{
+    color: green; 
+}
+.corvinal:hover{
+    color: #457b9d;
+}
+.lufa-lufa:hover{
+    color:rgb(233, 235, 129);
+}
+
+.quadro{
+    border: 1px rgb(90, 3, 3) solid ;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.quadro img{
+			width: 140px;
+			height: auto;
+			opacity: 0.7;
+			transition:2s;
+}
+.quadro img:hover{
+			border: 1px red solid;
+			opacity: 1;
+}
+.formulario{
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 5px;
+    border: 1px white solid;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(133, 3, 3, 0.541);
+    
+
+}
+.botao-enviar{
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 5px;
+}
+.botao-enviar:hover{
+    background-color: green;
+}
+.botao-limpar{
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 5px;
+}
+.botao-limpar:hover{
+    background-color: yellow;
+}
